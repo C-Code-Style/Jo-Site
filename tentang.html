@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" 
+          content="width=device-width, 
+          initial-scale=1.0" />
+    <title>Tentang - Jo Site</title>
+    
+    <link rel="stylesheet" 
+          href="css/style.css" />
+    <script src="javascript/script.js"></script>
+</head>
+<body>
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="landing-page.html">Beranda</a></li>
+            <li><a href="kontak.html">Kontak</a></li>
+            <li><a href="Proyek.html">Proyek</a></li>
+            <li><a href="tentang.html" 
+                   class="active">Tentang</a></li>
+            <li><a href="buku-tamu.html">Buku Tamu</a></li>
+            <li>
+                <div class="toggle-container">
+                    <span class="toggle-icon" 
+                          id="toggleIcon">🌙</span>
+                    <div class="toggle-switch" 
+                         id="toggleSwitch">
+                        <div class="toggle-slider"></div>
+                    </div>
+                    <span class="toggle-label" 
+                          id="toggleLabel">Dark</span>
+                </div>
+            </li>
+        </ul>
+    </nav>
+    
+    <section class="tentang-section">
+        <div class="tentang-container">
+            
+            <div class="foto-side">
+                <div class="foto-profil">
+                    <img src="https://i.imgur.com/TYrUXNR.jpeg" 
+                         alt="Foto Profil" />
+                </div>
+                <div class="nama-profil">Faisal Fakhri</div>
+                <div class="role-profil">
+                    <a href="https://www.instagram.com/cycle_port_scape/" 
+                       target="_blank">Photographer</a>
+                    &amp; 
+                    <a href="https://www.instagram.com/ccodestyle/" 
+                       target="_blank">Web Developer</a>
+                </div>
+                
+                <div class="btn-cv-wrapper">
+                    <button class="btn-cv" 
+                            id="btnCv">📄 Tampilkan CV</button>
+                    <div class="cv-dropdown" 
+                         id="cvDropdown">
+                        <a href="#" 
+                           class="cv-option" 
+                           data-target="cv-biasa">
+                            <span class="cv-icon">📄</span> CV Biasa
+                        </a>
+                        <a href="Assets/files/dengan kontak.html" 
+                           class="cv-option" 
+                           target="_blank">
+                            <span class="cv-icon">✨</span> CV Interaktif
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="teks-side">
+                <h1 class="judul-tentang">Tentang</h1>
+                <h2 class="sub-judul">Perkenalan Diri</h2>
+                <p class="teks-tentang">
+                    Saya <span class="highlight-text">Faisal Fakhri</span> (banyak juga yang mengenal saya dengan sebutan Johan), saya seorang 
+                    <span class="highlight-text">Fotografer</span> yang juga memiliki ketertarikan kepada
+                    <span class="highlight-text">Web Developer</span>.
+                </p>
+                <p class="teks-tentang">.</p>
+                
+                <div class="teks-tentang-website">
+                    <strong>📌 Tentang Website ini</strong>
+                    <p style="margin-top: 0.5rem;">
+                        Website ini ditujukan untuk <span class="highlight-text">memampilkan semua portfolio</span> 
+                        yang pernah dibuat oleh saya pribadi, mulai dari proyek fotografi, 
+                        dokumentasi event, hingga pengembangan web. 
+                        Semua karya yang saya hasilkan dapat Anda lihat di sini.
+                    </p>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    
+    <div class="lightbox-overlay" 
+         id="lightboxOverlay">
+        <div class="lightbox-content">
+            <button class="lightbox-close" 
+                    id="lightboxClose">&times;</button>
+            <div class="lightbox-body" 
+                 id="lightboxBody">
+                <img src="Assets/files/CV Faisal Fakhri.jpg" 
+                     alt="CV Biasa" class="cv-image" />
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <div class="footer-atas">
+            <div class="kiri">
+                <h4>Waktu Lokal</h4>
+                <p id="waktu-lokal">Loading...</p> 
+            </div>
+            <div class="kanan">
+                <h4>Sosial</h4>
+                <div class="social-links">
+                    <a href="https://www.instagram.com/johanpramudya47/">Instagram</a>
+                    <a href="https://www.linkedin.com/in/faisal-fakhri-a2776a226/">LinkedIn</a>
+                    <a href="https://github.com/C-Code-Style">Github</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bawah">
+            <span>Website ini dibuat oleh</span>
+            <span><a href="https://www.instagram.com/ccodestyle/">C-Code Style</a></span>
+        </div>
+    </footer>
+    
+</body>
+</html>
